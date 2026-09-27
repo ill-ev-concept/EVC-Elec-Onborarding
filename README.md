@@ -18,13 +18,13 @@ Let's look at the section where we set paths in KiCAD. We use ```EVC_SYMBOL_DIR`
 
 It should look like below:
 
-<img src="./images/Config_Paths.png width="700" alt="Example of Correct Paths">
+<img src="./images/Config_Paths.png" width="700" alt="Example of Correct Paths">
 
 Similarly, we will be needing KiCAD to look at the given library. We can do this by going to "Preferences" and finding either "Manage Symbol Libraries" or "Manage Footprint Libraries". Opening either brings up a window where we can select "Project Specific Libraries" where we can add paths. Click the folder icon and add the wanted library. If you set the path up correctly, the library path will contain  ```${EVCON_SYMBOL_DIR}```, ```${EVCON_FOOTPRINT_DIR}```, or ```${EVCON_3DMODEL_DIR}```. 
 
 It will look like below if done correctly.
 
-<img src="./images/Project_Lib.png width="700" alt="Example of Correct Paths">
+<img src="./images/Project_Lib.png" width="700" alt="Example of Correct Paths">
 
 Now that your paths are set up properly, its important to use Git and Github properly. Read the Contributing section of EVC-PCB's README file. It goes into detail of how to contribute and properly pull, merge, and create PRs.
 
