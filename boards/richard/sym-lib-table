@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Ricky_Lib") (type "KiCad") (uri "${EVCON_SYMBOL_DIR}/ricky_lib.kicad_sym") (options "") (descr ""))
+)
