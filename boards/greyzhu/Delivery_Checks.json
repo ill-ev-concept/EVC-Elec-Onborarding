@@ -1,0 +1,31 @@
+{
+  "generated": "2026-10-07",
+  "pcb_mm": [
+    100,
+    80
+  ],
+  "copper_layers": 2,
+  "footprints": 48,
+  "mounting_holes_included": 4,
+  "routed_segments": 407,
+  "vias": 22,
+  "drills_diameter_mm_counts": {
+    "PTH": {
+      "0.35": 22,
+      "0.76": 8,
+      "1.0": 12,
+      "1.05": 6,
+      "1.1": 4
+    },
+    "NPTH": {
+      "3.0": 2,
+      "3.2": 2,
+      "4.3": 4
+    }
+  },
+  "native_DRC": "0 violations; 0 unconnected; 0 footprint errors, configured checks",
+  "native_ERC": "0 errors; 0 warnings, configured checks",
+  "schematic_PCB_reference_value_MPN_footprint_match": true,
+  "manufacturing_files": 12,
+  "hardware_tested": false
+}

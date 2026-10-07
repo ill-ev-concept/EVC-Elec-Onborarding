@@ -1,0 +1,2 @@
+# Preserve exported manufacturing files and SHA256 checksums across platforms.
+* -text whitespace=cr-at-eol

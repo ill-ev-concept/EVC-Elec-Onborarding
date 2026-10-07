@@ -1,0 +1,49 @@
+﻿Reference,Value,X_mm_KiCad,Y_mm_KiCad_down,Rotation_deg_KiCad,Side,Footprint
+C1,100nF,73,106,90,Top,Backpack:C0603
+C2,100nF,79,92,90,Top,Backpack:C0603
+C3,100nF,88,103,90,Top,Backpack:C0603
+C4,100nF,92,93,90,Top,Backpack:C0603
+C5,100nF,82,89,0,Top,Backpack:C0603
+C6,100nF,78,98,90,Top,Backpack:C0603
+C7,4.7uF,93,104,0,Top,Backpack:C0805
+C8,4.7uF / 10V,111,98,90,Top,Backpack:C0805
+C9,4.7uF / 10V,111,108,90,Top,Backpack:C0805
+C10,100nF,93.5,68,90,Top,Backpack:C0603
+C11,100nF,109,71.2,90,Top,Backpack:C0603
+C12,1uF / 10V,112,73,90,Top,Backpack:C0805
+C13,100nF,126,83,90,Top,Backpack:C0603
+C14,100nF,126,104,90,Top,Backpack:C0603
+C15,15pF C0G,72,87,90,Top,Backpack:C0603
+C16,15pF C0G,72,95,90,Top,Backpack:C0603
+C17,10uF / 10V,115,91,0,Top,Backpack:C0805
+C18,10uF / 10V,136,81,90,Top,Backpack:C0805
+C19,10uF / 10V,136,102,90,Top,Backpack:C0805
+D1,GREEN,96,116,0,Top,Backpack:LED
+F1,1.1A hold / 16V,115,85,0,Top,Backpack:FUSE
+F2,0.5A hold / 16V,130,78,0,Top,Backpack:FUSE
+F3,0.5A hold / 16V,130,99,0,Top,Backpack:FUSE
+H1,M4 / 4.3mm,55,55,0,Top,Backpack:HOLE
+H2,M4 / 4.3mm,145,55,0,Top,Backpack:HOLE
+H3,M4 / 4.3mm,55,125,0,Top,Backpack:HOLE
+H4,M4 / 4.3mm,145,125,0,Top,Backpack:HOLE
+J1,TEAM DEBUG 2x5,62,73,0,Top,Backpack:DEBUG
+J2,54602-908LF,121,65,180,Top,Backpack:RJ45
+J3,2157601003,141.1,89,90,Top,Backpack:MICROFIT
+J4,2157601003,141.1,111,90,Top,Backpack:MICROFIT
+JP1,CAN TERM / default open,118,77,0,Top,Backpack:JUMPER
+R1,10k,80,103,0,Top,Backpack:R0603
+R2,10k,97,101,0,Top,Backpack:R0603
+R3,10k,76,102,90,Top,Backpack:R0603
+R4,1k,96,112,0,Top,Backpack:R0603
+R5,100k,125,91,90,Top,Backpack:R0603
+R6,100k,125,112,90,Top,Backpack:R0603
+R7,330R,136,85,0,Top,Backpack:R0603
+R8,330R,136,106,0,Top,Backpack:R0603
+R9,120R / 1%,111,78,90,Top,Backpack:R0805
+SW1,RESET,62,110,0,Top,Backpack:SW
+U1,STM32F103C8T6,85,96,0,Top,Backpack:MCU
+U2,ISO1050DUB,101,72,0,Top,Backpack:ISO
+U3,TLV75533PDBVR,113,103,0,Top,Backpack:SOT5
+U4,74AHCT1G125,130,87,0,Top,Backpack:SOT5
+U5,74AHCT1G125,130,108,0,Top,Backpack:SOT5
+Y1,8MHz / CL=10pF,75,91,0,Top,Backpack:CRYSTAL
