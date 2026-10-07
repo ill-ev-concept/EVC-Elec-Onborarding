@@ -1,19 +1,33 @@
-# Lights Microcontroller Backpack - greyzhu
+# Lights Microcontroller Backpack
 
-- GitHub username (provided screenshot): `saffiotialfredo949-ctrl`
-- Display name: `Greyzhu0511`
-- Discord: `grey077913`
-- Submission branch and directory name: `greyzhu` (student-selected name)
-- KiCad version: 10.0.6
+Two-layer STM32F103C8T6 board with isolated CAN and two buffered WS2812 interfaces.
 
-Open `Lights_Backpack.kicad_pro`. The schematic, routed two-layer PCB, symbol and footprint tables, Gerber files, and PTH/NPTH drill files are included. Project-local libraries use `${KIPRJMOD}` and are bundled so the project can be reviewed without machine-specific library paths. Shared repository libraries have not been modified.
+| Item | Value |
+|---|---|
+| Contributor | greyzhu |
+| GitHub | saffiotialfredo949-ctrl |
+| Discord | grey077913 |
+| KiCad | 10.0.6 |
+| Board | 100 x 80 mm, two layers, 1.6 mm FR-4 |
 
-The 100 x 80 mm board includes an STM32F103C8T6, 8 MHz crystal, 5 V to 3.3 V LDO, custom team programming header, ISO1050 isolated CAN interface, RJ45 connector, and two buffered WS2812 outputs with fused 5 V supplies.
+## Open the project
 
-Native KiCad checks passed under the configured rules: ERC 0 errors / 0 warnings; DRC 0 violations / 0 unconnected pads / 0 footprint errors, including schematic parity. See `ERC_Passed.rpt` and `DRC_Passed.rpt` for the disabled check categories. No physical prototype or firmware has been tested.
+Open `Lights_Backpack.kicad_pro` in KiCad. Keep the directory structure intact: the symbol library, footprint library and library tables use `${KIPRJMOD}` paths.
 
-Review assumptions: each LED port targets at most 0.4 A before thermal/voltage derating; CAN-side isolated 5 V is supplied externally; J1 uses the custom team pinout; verify the mating LED harness pinout before assembly. BOM entries without MPN require final purchasing selection. Component position CSV uses KiCad absolute coordinates and is a reference, not a vendor-qualified placement order.
+## Contents
 
-See `README_使用说明.md` for complete pin assignments, fabrication parameters, power assumptions, and design references. `manufacturing/` contains nine Gerbers, one job file and two drill files. The PDF is the schematic preview.
+- `Lights_Backpack.kicad_sch` and `Lights_Backpack.kicad_pcb`: schematic and routed PCB.
+- `Lights_Backpack.pdf`: schematic preview.
+- `Backpack.kicad_sym`, `Backpack.pretty/` and library tables: project libraries.
+- `BOM.csv`: component list; blank MPN fields require purchasing selection.
+- `Component_Positions_Reference.csv`: placement reference in KiCad absolute coordinates.
+- `manufacturing/`: nine Gerbers, one Gerber job and two Excellon drill files.
+- `ERC_Passed.rpt`, `DRC_Passed.rpt` and `Delivery_Checks.json`: design checks.
+- `SHA256SUMS.txt`: file integrity manifest.
+- [Hardware guide](HARDWARE_GUIDE.md): interfaces, power limits, fabrication details and initial test procedure.
 
-This is prepared for team review. PR creation and review approval are separate from local design completion.
+## Validation and status
+
+Native KiCad ERC reports zero errors and warnings. Native DRC reports zero violations, unconnected pads and footprint errors, with schematic parity enabled. These results apply to the configured checks; the reports list disabled categories.
+
+The design is ready for team review. No prototype has been assembled or tested, and firmware is not included. Before fabrication or assembly, confirm the mating harness pinout, remaining component MPNs and system power budget. Each LED port targets at most 0.4 A before thermal and voltage derating. The CAN side requires an external isolated 5 V supply. J1 uses the custom team programming pinout.

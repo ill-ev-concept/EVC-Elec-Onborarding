@@ -618,7 +618,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -657,7 +657,7 @@
     "top_level_sheets": [
       {
         "filename": "Lights_Backpack.kicad_sch",
-        "name": "根目录",
+        "name": "Root",
         "uuid": "d9edfd49-6266-48d3-82e1-127f4e52a1bd"
       }
     ],
@@ -667,7 +667,7 @@
   "sheets": [
     [
       "d9edfd49-6266-48d3-82e1-127f4e52a1bd",
-      "根目录"
+      "Root"
     ]
   ],
   "text_variables": {},
