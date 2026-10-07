@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Backpack")(type "KiCad")(uri "${KIPRJMOD}/Backpack.pretty")(options "")(descr "Project-local footprints")))

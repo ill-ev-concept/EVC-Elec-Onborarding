@@ -1,0 +1,49 @@
+﻿Reference,Quantity,Value,MPN,Footprint,Design note
+C1,1,100nF,,Backpack:C0603,
+C2,1,100nF,,Backpack:C0603,
+C3,1,100nF,,Backpack:C0603,
+C4,1,100nF,,Backpack:C0603,
+C5,1,100nF,,Backpack:C0603,
+C6,1,100nF,,Backpack:C0603,
+C7,1,4.7uF,,Backpack:C0805,
+C8,1,4.7uF / 10V,,Backpack:C0805,
+C9,1,4.7uF / 10V,,Backpack:C0805,
+C10,1,100nF,,Backpack:C0603,
+C11,1,100nF,,Backpack:C0603,
+C12,1,1uF / 10V,,Backpack:C0805,
+C13,1,100nF,,Backpack:C0603,
+C14,1,100nF,,Backpack:C0603,
+C15,1,15pF C0G,,Backpack:C0603,
+C16,1,15pF C0G,,Backpack:C0603,
+C17,1,10uF / 10V,,Backpack:C0805,
+C18,1,10uF / 10V,,Backpack:C0805,
+C19,1,10uF / 10V,,Backpack:C0805,
+D1,1,GREEN,,Backpack:LED,
+F1,1,1.1A hold / 16V,MF-MSMF110/16X-2,Backpack:FUSE,
+F2,1,0.5A hold / 16V,MF-MSMF050/16X-2,Backpack:FUSE,
+F3,1,0.5A hold / 16V,MF-MSMF050/16X-2,Backpack:FUSE,
+H1,1,M4 / 4.3mm,,Backpack:HOLE,4.3mm non-plated mounting hole; keep copper clear.
+H2,1,M4 / 4.3mm,,Backpack:HOLE,4.3mm non-plated mounting hole; keep copper clear.
+H3,1,M4 / 4.3mm,,Backpack:HOLE,4.3mm non-plated mounting hole; keep copper clear.
+H4,1,M4 / 4.3mm,,Backpack:HOLE,4.3mm non-plated mounting hole; keep copper clear.
+J1,1,TEAM DEBUG 2x5,,Backpack:DEBUG,Custom team pinout. Not ARM Cortex 10-pin. Do not parallel external 5V sources.
+J2,1,54602-908LF,54602-908LF,Backpack:RJ45,"Team vehicle connector, NOT Ethernet. Pinout from assignment."
+J3,1,2157601003,2157601003,Backpack:MICROFIT,"Board pinout: 1=5V, 2=GND, 3=DATA. Confirm mating harness."
+J4,1,2157601003,2157601003,Backpack:MICROFIT,"Board pinout: 1=5V, 2=GND, 3=DATA. Confirm mating harness."
+JP1,1,CAN TERM / default open,,Backpack:JUMPER,Default open. Fit only if this node is one of the two physical bus ends.
+R1,1,10k,,Backpack:R0603,
+R2,1,10k,,Backpack:R0603,
+R3,1,10k,,Backpack:R0603,
+R4,1,1k,,Backpack:R0603,
+R5,1,100k,,Backpack:R0603,
+R6,1,100k,,Backpack:R0603,
+R7,1,330R,,Backpack:R0603,
+R8,1,330R,,Backpack:R0603,
+R9,1,120R / 1%,,Backpack:R0805,
+SW1,1,RESET,,Backpack:SW,
+U1,1,STM32F103C8T6,STM32F103C8T6,Backpack:MCU,
+U2,1,ISO1050DUB,ISO1050DUB,Backpack:ISO,
+U3,1,TLV75533PDBVR,TLV75533PDBVR,Backpack:SOT5,
+U4,1,74AHCT1G125,SN74AHCT1G125DBVR,Backpack:SOT5,
+U5,1,74AHCT1G125,SN74AHCT1G125DBVR,Backpack:SOT5,
+Y1,1,8MHz / CL=10pF,ABM3B-8.000MHZ-10-1-U-T,Backpack:CRYSTAL,
