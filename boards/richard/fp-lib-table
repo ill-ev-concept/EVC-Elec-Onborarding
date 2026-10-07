@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "symbols") (type "KiCad") (uri "C:/Users/zanar/Documents/GitHub/EVC-Elec-Onborarding/libs-ob/symbols") (options "") (descr ""))
+)
