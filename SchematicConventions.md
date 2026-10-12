@@ -1,3 +1,4 @@
+@ -1,74 +0,0 @@
 # **Schematic Conventions**
 
 *By: Ethan Rybka*
@@ -69,6 +70,5 @@ We have some specific standard layouts for connectors such as the programming he
 # **Final Notes**
 
 Just another reminder to be **CONSISTENT** across the entire board. This will make your life easier later on when something breaks and you have to figure why. Something will most likely go wrong the first time, nobody is perfect.
-
 
 

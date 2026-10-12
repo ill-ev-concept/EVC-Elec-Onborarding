@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CAN Isolators & Trancievers") (type "KiCad") (uri "${EVC_SYMBOL_DIR}/CAN Isolators & Trancievers.kicad_sym") (options "") (descr ""))
+)

@@ -1,3 +1,4 @@
+@ -1,42 +0,0 @@
 # EVC-Elec-Onborarding
 
 Hello onboarding members!
@@ -33,7 +34,6 @@ Make sure to push and pull from this specific repo, EVC-Elec-Onboarding, not EVC
 If you have any questions, feel free to message either Miles (mileskubik), Himesh (hotmesh), or Ethan (whybd) on Discord or find us after a meeting. 
 
 Good luck designing!
-
 
 
 
