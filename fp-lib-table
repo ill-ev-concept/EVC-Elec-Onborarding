@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "footprintOnboarding") (type "KiCad") (uri "${KIPRJMOD}/footprintOnboarding.pretty") (options "") (descr ""))
+	(lib (name "3d_models") (type "KiCad") (uri "C:/Users/al08z/Documents/GitHub/EVC-Elec-Onborarding/libs-ob/3d_models") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "C:/Users/al08z/Documents/GitHub/EVC-Elec-Onborarding/libs-ob/footprints") (options "") (descr ""))
+	(lib (name "symbols") (type "KiCad") (uri "C:/Users/al08z/Documents/GitHub/EVC-Elec-Onborarding/libs-ob/symbols") (options "") (descr ""))
+)
