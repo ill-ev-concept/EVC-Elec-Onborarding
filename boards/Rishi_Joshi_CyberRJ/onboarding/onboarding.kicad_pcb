@@ -84,7 +84,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./")
+			(outputdirectory "gerber_drill/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
