@@ -1,0 +1,120 @@
+** Drc report for Illini_EV_Concept.kicad_pcb **
+** Created on 2026-10-12T18:38:34 **
+** Report includes: Errors, Warnings **
+
+** Found 18 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(69.5000 mm, 40.5000 mm): Zone [GND] on F.Cu, priority 1
+    @(85.6400 mm, 69.3650 mm): PTH pad 4 [GND] of J2
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(69.5000 mm, 40.5000 mm): Zone [GND] on F.Cu, priority 1
+    @(121.7750 mm, 75.5000 mm): Pad 2 [GND] of C6 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(107.4770 mm, 70.2922 mm): Track [+3.3V] on F.Cu, length 0.1848 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(126.5000 mm, 66.0000 mm): Track [BOOT0] on B.Cu, length 7.0711 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(111.5000 mm, 77.0000 mm): Track [LED_A] on B.Cu, length 0.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(113.8375 mm, 77.7178 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(114.8375 mm, 77.7178 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(136.5000 mm, 76.0500 mm): Track [LED_B] on F.Cu, length 0.0866 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(114.3375 mm, 77.7178 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(114.3447 mm, 77.7250 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(114.8447 mm, 77.7250 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(113.8447 mm, 77.7250 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(69.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(140.2000 mm, 82.0750 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(69.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(150.1100 mm, 91.9250 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(69.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(140.2000 mm, 55.5750 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(69.0000 mm, 40.0000 mm): Rectangle on Edge.Cuts
+    @(150.1100 mm, 65.4250 mm): Segment of J4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.2000 mm, 57.5000 mm): Reference field of J4
+    @(141.2000 mm, 57.5000 mm): PTH pad 1 [+5V] of J4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.2000 mm, 84.0000 mm): Reference field of J3
+    @(141.2000 mm, 84.0000 mm): PTH pad 1 [+5V] of J3
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0875 mm, 76.6625 mm): Pad 23 [GND] of U1 on F.Cu
+    @(69.5000 mm, 40.5000 mm): Zone [GND] on F.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.5000 mm, 40.5000 mm): Zone [GND] on F.Cu, priority 1
+    @(69.0000 mm, 40.5000 mm): Zone [GND] on B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.7250 mm, 71.4000 mm): Pad 3 [GND] of U4 on F.Cu
+    @(69.5000 mm, 40.5000 mm): Zone [GND] on F.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.5000 mm, 40.5000 mm): Zone [GND] on F.Cu, priority 1
+    @(140.0000 mm, 77.0000 mm): Pad 3 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.6400 mm, 79.3550 mm): Track [GNDCAN] on F.Cu, length 13.2017 mm
+    @(112.0500 mm, 91.0000 mm): Pad 2 [GNDCAN] of C11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.5000 mm, 77.0000 mm): Track [LED_A] on B.Cu, length 0.5000 mm
+    @(111.5875 mm, 76.6625 mm): Track [LED_A] on F.Cu, length 0.8053 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0500 mm, 77.8136 mm): Track [LED_B] on F.Cu, length 0.0530 mm
+    @(113.8375 mm, 77.7178 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.3375 mm, 77.7178 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+    @(113.8447 mm, 77.7250 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.3447 mm, 77.7250 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+    @(114.8375 mm, 77.7178 mm): Track [LED_B] on F.Cu, length 0.0102 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5000 mm, 66.0000 mm): Track [BOOT0] on B.Cu, length 7.0711 mm
+    @(131.6750 mm, 71.0000 mm): Pad 1 [BOOT0] of R1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
