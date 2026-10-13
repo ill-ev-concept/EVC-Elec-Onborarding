@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "EVC_Custom") (type "KiCad") (uri "${KIPRJMOD}/EVC_Custom.pretty") (options "") (descr ""))
+)
