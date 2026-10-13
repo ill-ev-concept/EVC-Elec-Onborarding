@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-10-12T21:15:34-05:00*%
+%TF.ProjectId,Illini_EV_Concept,496c6c69-6e69-45f4-9556-5f436f6e6365,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-10-12 21:15:34*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X69000000Y-40000000D02*
+X150000000Y-40000000D01*
+X150000000Y-117000000D01*
+X69000000Y-117000000D01*
+X69000000Y-40000000D01*
+M02*
