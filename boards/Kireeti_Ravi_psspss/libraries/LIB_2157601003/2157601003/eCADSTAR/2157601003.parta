@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_16359817"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-23-17:32:26)
+    (utime 2025-10-06-12:34:07)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "2157601003")
+)
+
+
+(pinAssign "ECS_16359817"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-23-17:32:26)
+    (utime 2025-10-06-12:34:07)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16359817")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "2157601003")
+)
+
+
+(part "2157601003"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-23-17:32:26)
+    (utime 2025-10-06-12:34:07)
+    (packageRef "2157601003")
+    (pinAssignRef "ECS_16359817")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Micro-Fit+ Right-Angle Header, Through Hole, 3.00mm Pitch, Single Row, 3  Circuits, Matte Tin (Sn) Plating, Glow-Wire Capable, Black")
+    (property "Manufacturer_Name" "Molex")
+    (property "Manufacturer_Part_Number" "2157601003")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "2157601003")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/2157601003/molex.html?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.molex.com/en-us/products/part-detail-pdf/2157601003?display=pdf")
+    (property "compAreaTopHeight" 1.6)
+)
+
+

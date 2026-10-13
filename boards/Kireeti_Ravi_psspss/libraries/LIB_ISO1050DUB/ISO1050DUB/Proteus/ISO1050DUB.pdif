@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ISO1050DUB"
+   (description "CAN Transceiver 1Mbit/s ISO 11898-2 Silent-Mode 8pins SOIC")
+   (family "ANA")
+   (package "SOP254P1040X485-8N")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100032000.pdf")
+   (attribute "Geometry.Height" "4.85mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "ISO1050DUB")
+   (attribute "Mouser Part Number" "595-ISO1050DUB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUB?qs=IK5e5L0zOXiBKtns%252BwxBWw%3D%3D")
+   (attribute "Arrow Part Number" "ISO1050DUB")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/iso1050dub/texas-instruments?region=nac")
+   (gate
+    (symbol "ISO1050DUB")
+    (pin "VCC1" 1 PS)
+    (pin "RXD" 2 PS)
+    (pin "TXD" 3 PS)
+    (pin "GND1" 4 PS)
+    (pin "VCC2" 8 PS)
+    (pin "CANH" 7 PS)
+    (pin "CANL" 6 PS)
+    (pin "GND2" 5 PS)
+   )
+  )
+  (symbol "ISO1050DUB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP254P1040X485-8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.95 5.025)
+      (pt 5.95 5.025)
+      (pt 5.95 -5.025)
+      (pt -5.95 -5.025)
+      (pt -5.95 5.025))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.31 4.75)
+      (pt 3.31 4.75)
+      (pt 3.31 -4.75)
+      (pt -3.31 -4.75)
+      (pt -3.31 4.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.31 2.21)
+      (pt -0.77 4.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3 4.75)
+      (pt 3 4.75)
+      (pt 3 -4.75)
+      (pt -3 -4.75)
+      (pt -3 4.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.7 4.51)
+      (pt -3.35 4.51))))
+   (leg 1 (pt -4.525 3.81) (padstack 0))
+   (leg 2 (pt -4.525 1.27) (padstack 0))
+   (leg 3 (pt -4.525 -1.27) (padstack 0))
+   (leg 4 (pt -4.525 -3.81) (padstack 0))
+   (leg 5 (pt 4.525 -3.81) (padstack 0))
+   (leg 6 (pt 4.525 -1.27) (padstack 0))
+   (leg 7 (pt 4.525 1.27) (padstack 0))
+   (leg 8 (pt 4.525 3.81) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 2.35 0 0 0))
+   )
+   (model "ISO1050DUB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

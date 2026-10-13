@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ISO1050DUB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ISO1050DUB" (!) = "", "SOP254P1040X485-8N", "Small Outline Packages", "595-ISO1050DUB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUB?qs=IK5e5L0zOXiBKtns%252BwxBWw%3D%3D", "ISO1050DUB", "https://www.arrow.com/en/products/iso1050dub/texas-instruments?region=nac", "CAN Transceiver 1Mbit/s ISO 11898-2 Silent-Mode 8pins SOIC", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100032000.pdf", "4.85 mm"
+END_PART
+
+END.

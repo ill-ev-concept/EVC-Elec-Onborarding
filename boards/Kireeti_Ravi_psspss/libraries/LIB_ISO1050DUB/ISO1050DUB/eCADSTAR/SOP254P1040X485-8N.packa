@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ISO1050DUB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-27-10:33:24)
+    (mountForm default
+        (footprintRef "SOP254P1040X485-8N")
+        (spec "System")
+    )
+)

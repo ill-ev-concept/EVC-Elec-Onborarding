@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '54602_908LF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol Communications Solutions", "54602-908LF" (!) = "", "54602908LF", "Other", "", "", "54602-908LF", "https://www.arrow.com/en/products/54602-908lf/amphenol-fci.html?utm_currency=USD&region=asia", "Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port", "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf", "12.85 mm"
+END_PART
+
+END.
