@@ -1,0 +1,18 @@
+.54602-908LF :1 ;Modular Jack, Input Output Connectors, Cat 3 Single Modular Jack, Horizontal, Board Through Mount, 8P8C, 1 Port
+"54602908LF"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 10
+*DFN 54602-908LF
+~!Manufacturer_Name (Amphenol Communications Solutions)
+~!Manufacturer_Part_Number (54602-908LF)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (54602-908LF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/54602-908lf/amphenol-fci.html?utm_currency=USD&region=asia)
+~!Link Datasheet (https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+~!Height (12.85mm)
+~!3D_Model (54602-908LF)
+"54602-908LF"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communications Solutions
+PartNumber=54602-908LF
+PartCategory=Connector
+PackageCategory=Other
+PinCount=8
+Version=2.4
+Released=2023-11-29 10:51:36
+Downloaded=2026-10-12 19:18:14
+3D=Y

@@ -1,0 +1,18 @@
+.ISO1050DUB :1 ;CAN Transceiver 1Mbit/s ISO 11898-2 Silent-Mode 8pins SOIC
+SOP254P1040X485-8N
+*STM IC
+*NGS
+*PLB 1="VCC1" 2="RXD" 3="TXD" 4="GND1" 5="GND2" 6="CANL" 7="CANH" 8="VCC2"
+*MXP 8
+*DFN ISO1050DUB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ISO1050DUB)
+~!Mouser Part Number (595-ISO1050DUB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUB?qs=IK5e5L0zOXiBKtns%252BwxBWw%3D%3D)
+~!Arrow Part Number (ISO1050DUB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/iso1050dub/texas-instruments?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100032000.pdf)
+~!Height (4.85mm)
+~!3D_Model (ISO1050DUB)
+ISO1050DUB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

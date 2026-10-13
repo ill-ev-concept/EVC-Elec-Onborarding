@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ISO1050DUB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=5.1
+Released=2015-07-14 15:24:38
+Downloaded=2026-10-12 19:17:28
+3D=Y
